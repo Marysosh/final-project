@@ -37,7 +37,7 @@ class Card extends Component {
                 
                         <a onClick={this.pokemonCaught} id={pokeCard.id} className={'btn-floating blue darken-4 right bottom' + 
                         (this.props.pokeCatchDates[pokeCard.id] ? ' disabled' : ' pulse')}>
-                            <img src="https://psv4.userapi.com/c856428/u85219118/docs/d3/ed4b1ef90784/pokeball.png?extra=RzM-gK9wUPkW7-yPELk1s4vS9QuXjQ8fQA3l42JRIxuBxZkSoVnuE8bFIURjjU06pSYXZSlU9Assk4GBPHOLIqD6pnJF0z6XhEzdlBfrJF0AngSW6zFgeyatGpwQA_sdplruHY-89lP4Ng" 
+                            <img src="https://psv4.userapi.com/c856428/u85219118/docs/d3/906fb83fe4b1/pokeball.png?extra=DAi3ZfXHzm5e74cp7_1xaSmtFosw_cc6Y-Q8elccJp8VBeZGaD2hBmuJFXRFkbE9MUkcvrAiBxzB9sHxq2ve0lNgVlm5hAoOGBXgQBzHgPALgFWvfgIgheappCxeEqhB7r2E2sjX9pTNUC074t3vRfTHDw" 
                                  style={{width: '100%', opacity: this.props.pokeCatchDates[pokeCard.id] ? '50%' : '100%'}}/>
                             {/* Catch! */}
                         </a>
